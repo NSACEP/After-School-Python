@@ -16,18 +16,3 @@ Solve the following problems:
 2) What is the sum of the first five even fibonacci numbers
 
 """
-
-a = 0
-b = 1
-count = 0
-s = 0
-for i in range(1,1000):
-    a,b = b, a+b
-    if b % 2 == 0:
-        print(b)
-        count = count + 1
-        s = s + b
-    if count == 5:
-        break
-
-print("s: ",s)
